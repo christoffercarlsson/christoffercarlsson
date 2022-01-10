@@ -10,6 +10,6 @@ can live independently.
 On [my website](https://christofferc.com) I share thoughts and ideas, projects
 that I’m working on, and things that I've learned.
 
-If you want to get in touch you can send an email to
-[hi@christofferc.com](mailto:hi@christofferc.com) (you can encrypt your message
-using [my PGP public key](https://christofferc.com/cc.asc)).
+If you want to get in touch you can
+[send me an email](mailto:cc@christofferc.com) (you can encrypt your message
+using my [PGP public key](https://christofferc.com/cc.asc)).
