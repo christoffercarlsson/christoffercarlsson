@@ -245,10 +245,20 @@ main.resume em {
   color: var(--border-color);
 }
 
-hr {
+hr,
+footer {
   margin: 2.75rem 0 0 0;
   border: none;
   border-top: 0.0625rem solid var(--border-color);
+}
+
+footer {
+  display: block;
+}
+
+main footer p {
+  margin-top: 0.688rem !important;
+  font-size: 0.813rem !important;
 }
 
 @media all and (min-width: 592px) {
