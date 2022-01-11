@@ -3,7 +3,7 @@ title: About
 layout: ../layouts/BaseLayout.astro
 ---
 
-![CC](/cc.jpg)
+<img id="portrait" src="/cc.jpg" alt="CC" />
 
 # Hej!
 

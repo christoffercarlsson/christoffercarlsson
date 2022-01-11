@@ -1,5 +1,5 @@
 ---
-title: Resume
+title: Resumé
 layout: ../layouts/BaseLayout.astro
 ---
 
