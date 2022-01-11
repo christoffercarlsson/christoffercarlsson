@@ -233,7 +233,7 @@ nav a {
   margin-bottom: 0.688rem;
 }
 
-main.about article > p:first-child > img {
+main.about img.portrait {
   width: 18.5rem;
   border-radius: 50%;
   margin: 1.688rem auto;
