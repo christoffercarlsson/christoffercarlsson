@@ -252,6 +252,10 @@ footer {
   border-top: 0.0625rem solid var(--border-color);
 }
 
+footer {
+  display: block;
+}
+
 main footer p {
   margin-top: 0.688rem !important;
   font-size: 0.813rem !important;
