@@ -260,13 +260,3 @@ hr {
     padding: 1.688rem;
   }
 }
-
-@media all and (min-width: 592px) {
-  :root {
-    font-size: 18px;
-  }
-
-  main {
-    padding: 1.688rem;
-  }
-}
