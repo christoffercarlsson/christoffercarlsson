@@ -1,3 +1,8 @@
+---
+title: Resume
+layout: ../layouts/BaseLayout.astro
+---
+
 # Christoffer Carlsson
 
 ## Professional Experience
