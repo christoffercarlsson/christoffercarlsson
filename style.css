@@ -22,10 +22,10 @@
 :root {
   font-size: 16px;
   --font-family: 'IBM Plex Sans', sans-serif;
-  --bg-color: rgb(20, 20, 20);
-  --text-color: rgb(250, 250, 250);
-  --border-color: rgba(250, 250, 250, 0.5);
-  --link-color: rgb(75, 204, 239);
+  --bg-color: rgb(34, 39, 46);
+  --text-color: rgb(173, 186, 199);
+  --border-color: rgb(68, 76, 86);
+  --link-color: rgb(83, 155, 245);
 }
 
 body {
@@ -208,7 +208,7 @@ a:hover {
 }
 
 nav {
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 1.688rem;
 }
 
@@ -231,6 +231,14 @@ nav a {
   line-height: 1.65;
   margin-top: 1.688rem;
   margin-bottom: 0.688rem;
+}
+
+main.about article > p:first-of-type > img {
+  width: 18.5rem;
+  border-radius: 50%;
+  margin: 1.688rem auto;
+  display: block;
+  border: 0.0625rem solid var(--border-color);
 }
 
 main.resume em {
