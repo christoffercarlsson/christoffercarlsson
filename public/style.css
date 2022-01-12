@@ -20,10 +20,11 @@
 }
 
 :root {
-  font-size: 16px;
+  font-size: 18px;
   --font-family: 'IBM Plex Sans', sans-serif;
   --bg-color: rgb(34, 39, 46);
   --text-color: rgb(173, 186, 199);
+  --text-color-secondary: rgb(118, 131, 144);
   --border-color: rgb(68, 76, 86);
   --link-color: rgb(83, 155, 245);
 }
@@ -217,15 +218,15 @@ nav a {
   font-weight: bold;
 }
 
-main.home .intro h3:first-of-type {
+/* main.home .intro h3:first-of-type {
   font-size: 2.063rem;
   font-weight: bold;
   line-height: 1.576;
   margin-bottom: 1.688rem;
-}
+} */
 
 main.home .intro p,
-main.about p,
+/* main.about p, */
 nav a {
   font-size: 1.25rem;
   line-height: 1.65;
@@ -242,7 +243,7 @@ nav a {
 }
 
 main.resume em {
-  color: var(--border-color);
+  color: var(--text-color-secondary);
 }
 
 hr,
@@ -263,7 +264,7 @@ main footer p {
 
 @media all and (min-width: 592px) {
   :root {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   main {

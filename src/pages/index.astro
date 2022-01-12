@@ -1,10 +1,7 @@
 ---
 import { Markdown } from 'astro/components';
-import fs from 'node:fs/promises';
 import BaseLayout from '../layouts/BaseLayout.astro'
 
-const url = new URL('../../README.md', import.meta.url);
-const intro = await fs.readFile(url, 'utf-8');
 const projects = [
   {
     title: 'Autograph',
@@ -24,9 +21,25 @@ const projects = [
 ];
 ---
 
-<BaseLayout title="👋🏻 Hey, I'm Chris">
+<BaseLayout title="👋🏻">
   <div class="intro">
-    <Markdown content={intro} />
+    <Markdown>
+      # 👋🏻 Hey, I'm Chris
+
+      I believe that each of us should have the freedom to define life on our own
+      terms.
+
+      By helping to build tools and exploring strategies that give us flexibility,
+      privacy, security and simplicity, I hope to contribute to a world where we all
+      can live independently.
+
+      On this site I share thoughts and ideas, projects that I'm working on, and
+      things that I've learned.
+
+      If you want to get in touch you can
+      [send me an email](mailto:cc@christofferc.com) (you can encrypt your message
+      using my [PGP public key](https://christofferc.com/cc.asc)).
+    </Markdown>
   </div>
   <hr />
   <h2>Projects</h2>
