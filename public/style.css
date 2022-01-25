@@ -22,11 +22,12 @@
 :root {
   font-size: 18px;
   --font-family: 'IBM Plex Sans', sans-serif;
-  --bg-color: rgb(34, 39, 46);
-  --text-color: rgb(173, 186, 199);
-  --text-color-secondary: rgb(118, 131, 144);
+  --bg-color: rgb(0, 15, 31);
+  --text-color: rgb(203, 203, 203);
+  --heading-color: rgb(255, 255, 255);
+  --text-color-secondary: rgb(68, 76, 86);
   --border-color: rgb(68, 76, 86);
-  --link-color: rgb(83, 155, 245);
+  --link-color: rgb(133, 190, 255);
 }
 
 body {
@@ -75,6 +76,14 @@ h6 {
   line-height: 1.688;
   font-weight: bold;
   margin-bottom: 0.438rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
 }
 
 p,
