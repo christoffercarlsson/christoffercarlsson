@@ -3,7 +3,7 @@ title: About
 layout: ../layouts/BaseLayout.astro
 ---
 
-<img id="portrait" src="/cc.jpg" alt="CC" />
+<img id="portrait" src="/cc.jpeg" alt="CC" />
 
 # Hej!
 
