@@ -20,14 +20,14 @@
 }
 
 :root {
-  font-size: 18px;
+  font-size: 16px;
   --font-family: 'IBM Plex Sans', sans-serif;
-  --bg-color: rgb(0, 15, 31);
-  --text-color: rgb(203, 203, 203);
-  --heading-color: rgb(255, 255, 255);
-  --text-color-secondary: rgb(68, 76, 86);
-  --border-color: rgb(68, 76, 86);
-  --link-color: rgb(133, 190, 255);
+  --bg-color: rgb(13, 17, 23);
+  --text-color: rgb(201, 209, 217);
+  --heading-color: rgb(201, 209, 217);
+  --text-color-secondary: rgb(139, 148, 158);
+  --border-color: rgb(33, 38, 45);
+  --link-color: rgb(88, 166, 255);
 }
 
 body {
@@ -235,6 +235,7 @@ nav a {
 } */
 
 main.home .intro p,
+main.home .intro li,
 /* main.about p, */
 nav a {
   font-size: 1.25rem;
@@ -244,7 +245,7 @@ nav a {
 }
 
 #portrait {
-  width: 18.5rem;
+  width: 4rem;
   border-radius: 50%;
   margin: 1.688rem auto;
   display: block;
@@ -273,7 +274,7 @@ main footer p {
 
 @media all and (min-width: 592px) {
   :root {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   main {
