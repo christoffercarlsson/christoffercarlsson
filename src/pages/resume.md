@@ -1,6 +1,6 @@
 ---
 title: Resumé
-layout: ../layouts/BaseLayout.astro
+layout: ../layouts/Layout.astro
 ---
 
 # Christoffer Carlsson
@@ -19,7 +19,7 @@ Docker_
 
 ### Nexer
 
-April 2017 - present
+April 2017 - May 2022
 
 - Development and system architecture for various client projects as part of the
   Frontend team.

@@ -1,56 +1,60 @@
 ---
-import { Markdown } from 'astro/components';
-import BaseLayout from '../layouts/BaseLayout.astro'
+import { marked } from 'marked'
+import Layout from '../layouts/Layout.astro'
 
+const markdown = `
+# Imagine if each of us had the freedom to define life on our own terms...
+
+- We control our **identity**. Each of us decide who we are and how we present
+  ourselves to the world.
+- We have **true ownership**. We are in control of our personal information and
+  belongings - where and how they are kept, and who we share them with.
+- We have complete freedom to choose who we **trust** and **collaborate** with.
+- We communicate **freely** and **privately** without being monitored.
+- Each of us have **equal opportunity** to make an impact.
+- We **respect** and **take care** of each other and the world that we live in.
+
+<img id="portrait" src="/cc.jpeg" alt="CC" align="left" />
+
+👋 Hey, I'm Chris. By helping to build the tools that we need to **thrive in a
+free society**, I hope to contribute to this vision of the future.
+
+On this site I share thoughts and ideas, projects that I'm working on, and
+things that I've learned.
+
+If you want to get in touch you can
+[send me an email](mailto:cc@christofferc.com) (you can encrypt your message
+using my [PGP public key](/cc.asc)).
+`
+const content = marked.parse(markdown)
 const projects = [
   {
     title: 'Autograph',
-    description: 'A cryptographic protocol designed to help give people agency over their digital lives.',
-    url: 'https://autograph.sh'
+    description:
+      'A cryptographic protocol designed to help give people agency over their digital lives.',
+    url: 'https://autograph.sh',
   },
   {
     title: 'Stedy',
-    description: 'A JavaScript development kit with focus on simplicity and flexibility.',
-    url: 'https://github.com/christoffercarlsson/stedy'
-  }
-];
+    description:
+      'A JavaScript cryptography library with focus on security and ease-of-use.',
+    url: 'https://github.com/christoffercarlsson/stedy',
+  },
+]
 ---
 
-<BaseLayout title="👋🏻">
-  <div class="intro">
-    <Markdown>
-      # Imagine if each of us had the freedom to define life on our own terms...
-
-    - We control our **identity**. Each of us decide who we are and how we present
-      ourselves to the world.
-    - We have **true ownership**. We are in control of our personal information and
-      belongings - where and how they are kept, and who we share them with.
-    - We have complete freedom to choose who we **trust** and **collaborate** with.
-    - We communicate **freely** and **privately** without being monitored.
-    - Each of us have **equal opportunity** to make an impact.
-    - We **respect** and **take care** of each other and the world that we live in.
-
-    <img id="portrait" src="/cc.jpeg" alt="CC" align="left" />
-
-    👋 Hey, I'm Chris. By helping to build the tools that we need to **thrive in a
-    free society**, I hope to contribute to this vision of the future.
-
-      On this site I share thoughts and ideas, projects that I'm working on, and
-      things that I've learned.
-
-      If you want to get in touch you can
-      [send me an email](mailto:cc@christofferc.com) (you can encrypt your message
-      using my [PGP public key](https://christofferc.com/cc.asc)).
-    </Markdown>
-  </div>
+<Layout title='👋🏻'>
+  <div class='intro' set:html={content} />
   <hr />
   <h2>Projects</h2>
-  {projects.map((project) => (
-    <>
-      <h3>
-        <a href={project.url}>{project.title}</a>
-      </h3>
-      <p>{project.description}</p>
-    </>
-  ))}
-</BaseLayout>
+  {
+    projects.map((project) => (
+      <>
+        <h3>
+          <a href={project.url}>{project.title}</a>
+        </h3>
+        <p>{project.description}</p>
+      </>
+    ))
+  }
+</Layout>

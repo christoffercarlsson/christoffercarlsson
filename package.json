@@ -1,12 +1,18 @@
 {
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^1.6.9",
+    "marked": "^4.2.2"
   },
   "devDependencies": {
-    "astro": "^0.20.4"
+    "@types/marked": "^4.0.7"
   }
 }

@@ -1,0 +1,25 @@
+---
+const title = Astro.props.title ? Astro.props.title : Astro.props.content.title
+---
+
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width' />
+    <title>{title} | Christoffer Carlsson</title>
+    <link rel='stylesheet' href='/style.css?v=1' />
+  </head>
+  <body>
+    <main class='home'>
+      <article>
+        <slot />
+      </article>
+      <footer>
+        <p>
+          <a href='/cc.asc'>PGP public key</a> fingerprint: C067 DB3D C978 E5E2 F439
+          0D33 CFBA 876B FC8A A522
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
