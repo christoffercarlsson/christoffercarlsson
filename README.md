@@ -15,3 +15,5 @@ free society**, I hope to contribute to this vision of the future.
 If you want to get in touch you can
 [send me an email](mailto:cc@christoffercarlsson.se) (you can encrypt your
 message using my [PGP public key](./cc.asc)).
+
+PGP public key fingerprint: 7B44 4704 73EE 182D 5651  FA1B 57E1 AB81 80CD BC51
