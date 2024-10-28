@@ -12,13 +12,13 @@
 👋 Hey, I'm Chris. By helping to build the tools that we need to **thrive in a
 free society**, I hope to contribute to this vision of the future.
 
+Currently creating the
+[Autograph protocol](https://github.com/christoffercarlsson/autograph) and
+contributing to [Superbacked](https://superbacked.com) and
+[Blockcrypt](https://github.com/superbacked/blockcrypt).
+
 If you want to get in touch you can
 [send me an email](mailto:cc@christoffercarlsson.se) (you can encrypt your
 message using my [PGP public key](./cc.asc)).
-
-Currently creating the
-[Autograph protocol](https://github.com/christoffercarlsson/autograph) and
-maintaining [Superbacked](https://superbacked.com) and
-[Blockcrypt](https://github.com/superbacked/blockcrypt).
 
 PGP public key fingerprint: 7B44 4704 73EE 182D 5651 FA1B 57E1 AB81 80CD BC51

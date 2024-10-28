@@ -68,7 +68,7 @@ parts, documentation and production scheduling as part of the KDP team.
 - Built a custom web application, PHP framework, and SOAP client that interfaced
   with IBM mainframe systems, handling large amounts of data
 
-### HTML, CSS, JavaScript, PHP, COBOL, DB2, Node.js, jQuery, SOAP, Linux
+#### HTML, CSS, JavaScript, PHP, COBOL, DB2, Node.js, jQuery, SOAP, Linux
 
 ## Freelance Developer
 
