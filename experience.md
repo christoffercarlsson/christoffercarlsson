@@ -1,8 +1,24 @@
 # Experience
 
+## Founder
+
+### Det Goda Livet, Jan 2023 - present
+
+#### Gothenburg, Sweden
+
+Creating open tools and technologies that help people live a good life in a free
+society.
+
+- Design and implementation of open communications protocols and standards
+- Research and systems architecture of decentralized and distributed systems
+- Hardware and software prototyping for embedded systems
+- Full stack development of cross-platform applications
+- Research on formal verification of cryptographic protocols together with
+  academia
+
 ## Technical Lead
 
-### Volvo Car Corporation, Sep 2020 - present
+### Volvo Cars, Sep 2020 - present
 
 #### Gothenburg, Sweden
 
@@ -15,49 +31,28 @@ Arena), Volvo Cars Engineering.
 - Design and development of software and hardware prototypes used for research
   and testing purposes
 - Setup and maintenance of custom CI/CD pipeline on GitHub and Linux servers on
-  internal company Azure infrastructure
+  company Azure infrastructure
 - Development of cross-platform applications running on iOS, Android, and the
   web
 - Development of an internal prototyping tool to help developers get started
   working with low-level vehicle signals
 
-#### Rust, C/C++, Swift, Kotlin, TypeScript, Node.js, React, Docker, Linux
+#### Rust, C, C++, Swift, Kotlin, TypeScript, React Native, Tauri, Docker, Linux
 
 ## Software Architect
 
-### Nexer Group, Jan 2020 - Sep 2020
+### Nexer Group, Apr 2017 - Sep 2020
 
 #### Gothenburg, Sweden
 
 Architecture, design and developement for various client projects, working as a
 consultant. Mentor to junior developers that joined the team.
 
-#### HTML, CSS, JavaScript, Node.js, React, Docker
-
-## Front End Developer
-
-### Volvo Group Connected Solutions, Nov 2017 - Jan 2020
-
-#### Gothenburg, Sweden
-
-Development of new features and bug fixes for the Volvo Connect web application
-as part of the Driver Times team.
-
-#### HTML, CSS, JavaScript, Node.js, React, Docker
-
-## Full Stack Developer
-
-### Stena Metall, Apr 2017 - Nov 2017
-
-#### Gothenburg, Sweden
-
-Developement and maintenance of internal web applications.
-
-#### HTML, CSS, JavaScript, Node.js, Angular
+#### HTML, CSS, JavaScript, Node.js, React, Angular, Docker
 
 ## Senior Developer
 
-### Volvo Car Corporation, Feb 2014 - Apr 2017
+### Volvo Cars, Feb 2014 - Apr 2017
 
 #### Gothenburg, Sweden
 
@@ -78,9 +73,9 @@ parts, documentation and production scheduling as part of the KDP team.
 
 Full stack web development working as a freelancer.
 
-- Designed websites in Adobe Photoshop and implemented them in HTML, CSS,
-  JavaScript and PHP
-- Schema design, setup and maintenance of SQL databases
+- Designed web applications in Adobe Photoshop and implemented them in HTML,
+  CSS, JavaScript and PHP
+- Schema design, setup and maintenance of MySQL databases
 - Setup and maintenance of Linux servers for hosting client projects
 
 #### HTML, CSS, JavaScript, PHP, jQuery, MySQL, Linux
@@ -96,7 +91,7 @@ Full stack web development of a fleet management system.
 - Built a custom PHP framework from scratch
 - Implemented both the server and client sides of the OAuth 2 protocol
 
-#### HTML, CSS, JavaScript, PHP, jQuery, OAuth 2, Linux
+#### HTML, CSS, JavaScript, PHP, jQuery, MySQL, Linux, OAuth2
 
 ## Open source contributions
 

@@ -1,0 +1,152 @@
+{
+  "experience": {
+    "contact": "Christoffer Carlsson <cc@christoffercarlsson.se>",
+    "url": "https://christoffercarlsson.se",
+    "professional": [
+      {
+        "role": "Founder",
+        "organization": "Det Goda Livet",
+        "start": "2023-01-01",
+        "end": null,
+        "location": "Gothenburg, Sweden",
+        "description": "Creating open tools and technologies that help people live a good life in a free society.",
+        "activities": [
+          "Design and implementation of open communications protocols and standards",
+          "Research and systems architecture of decentralized and distributed systems",
+          "Hardware and software prototyping for embedded systems",
+          "Full stack development of cross-platform applications",
+          "Research on formal verification of cryptographic protocols together with academia"
+        ],
+        "tools": [
+          "Rust",
+          "Swift",
+          "Kotlin",
+          "TypeScript",
+          "Node.js",
+          "React",
+          "Tauri",
+          "Docker",
+          "Linux"
+        ]
+      },
+      {
+        "role": "Technical Lead",
+        "organization": "Volvo Cars",
+        "start": "2020-09-01",
+        "end": null,
+        "location": "Gothenburg, Sweden",
+        "description": "Software and hardware prototyping, system architecture and experimental research as part of the Prototyping team at Exploration Labs (formerly Open Innovation Arena), Volvo Cars Engineering.",
+        "activities": [
+          "Implementation of cryptographic protocols on embedded, mobile and web platforms",
+          "Design and development of software and hardware prototypes used for research and testing purposes",
+          "Setup and maintenance of custom CI/CD pipelines on GitHub and Linux servers on company Azure infrastructure",
+          "Development of cross-platform applications running on iOS, Android, and the web",
+          "Development of an internal prototyping tool to help developers get started working with low-level vehicle signals"
+        ],
+        "tools": [
+          "Rust",
+          "C",
+          "C++",
+          "Swift",
+          "Kotlin",
+          "TypeScript",
+          "Node.js",
+          "React",
+          "Tauri",
+          "React Native",
+          "Expo",
+          "Docker",
+          "Linux"
+        ]
+      },
+      {
+        "role": "Software Architect",
+        "organization": "Nexer Group",
+        "start": "2017-04-01",
+        "end": "2020-09-01",
+        "location": "Gothenburg, Sweden",
+        "description": "Architecture, design and developement for various client projects, working as a consultant. Mentor to junior developers that joined the team.",
+        "activities": null,
+        "tools": ["HTML", "CSS", "JavaScript", "Node.js", "React", "Angular"]
+      },
+      {
+        "role": "Senior Developer",
+        "organization": "Volvo Cars",
+        "start": "2014-02-01",
+        "end": "2017-04-01",
+        "location": "Gothenburg, Sweden",
+        "description": "Development and maintenance of core internal software used to manage automotive parts, documentation and production scheduling as part of the KDP team.",
+        "activities": [
+          "Worked with the COBOL programming language and DB2 databases",
+          "Built a custom web application, PHP framework, and SOAP client that interfaced with IBM mainframe systems, handling large amounts of data"
+        ],
+        "tools": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "COBOL",
+          "DB2",
+          "Node.js",
+          "jQuery",
+          "SOAP",
+          "Linux"
+        ]
+      },
+      {
+        "role": "Freelance Developer",
+        "organization": "Chreation",
+        "start": "2012-03-01",
+        "end": "2014-02-01",
+        "location": "Lysekil, Sweden",
+        "description": "Full stack web development working as a freelancer.",
+        "activities": [
+          "Designed web applications in Adobe Photoshop and implemented them in HTML, CSS, JavaScript and PHP",
+          "Schema design, setup and maintenance of MySQL databases",
+          "Setup and maintenance of Linux servers for hosting client projects"
+        ],
+        "tools": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "jQuery",
+          "MySQL",
+          "Linux"
+        ]
+      },
+      {
+        "role": "Lead Developer",
+        "organization": "Smart Solutions",
+        "start": "2009-10-01",
+        "end": "2012-03-01",
+        "location": "Gothenburg, Sweden",
+        "description": "Full stack web development of a fleet management system.",
+        "activities": [
+          "Built a custom PHP framework from scratch",
+          "Implemented both the server and client sides of the OAuth 2 protocol"
+        ],
+        "tools": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "jQuery",
+          "MySQL",
+          "Linux",
+          "OAuth 2"
+        ]
+      }
+    ],
+    "contributions": [
+      {
+        "project": "Autograph",
+        "description": "Creator of the [Autograph protocol](https://github.com/christoffercarlsson/autograph) - an open, modular cryptographic protocol that implements a decentralized credential management system. Efficient enough to run on virtually any type of device, completely offline."
+      },
+      {
+        "project": "Superbacked",
+        "description": "Core maintainer of [Blockcrypt](https://github.com/superbacked/blockcrypt) and [Superbacked](https://superbacked.com) - a secret management platform used to back up and pass on sensitive data from one generation to the next."
+      }
+    ]
+  }
+}
