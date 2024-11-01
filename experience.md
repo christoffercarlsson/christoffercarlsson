@@ -16,6 +16,8 @@ society.
 - Research on formal verification of cryptographic protocols together with
   academia
 
+#### Rust, Swift, Kotlin, TypeScript, React, Tauri, Docker, Linux
+
 ## Technical Lead
 
 ### Volvo Cars, Sep 2020 - present

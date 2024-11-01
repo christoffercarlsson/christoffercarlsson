@@ -1,7 +1,7 @@
 {
+  "contact": "Christoffer Carlsson <cc@christoffercarlsson.se>",
+  "url": "https://github.com/christoffercarlsson",
   "experience": {
-    "contact": "Christoffer Carlsson <cc@christoffercarlsson.se>",
-    "url": "https://christoffercarlsson.se",
     "professional": [
       {
         "role": "Founder",
@@ -50,11 +50,8 @@
           "Swift",
           "Kotlin",
           "TypeScript",
-          "Node.js",
-          "React",
           "Tauri",
           "React Native",
-          "Expo",
           "Docker",
           "Linux"
         ]
@@ -137,16 +134,16 @@
           "OAuth 2"
         ]
       }
-    ],
-    "contributions": [
-      {
-        "project": "Autograph",
-        "description": "Creator of the [Autograph protocol](https://github.com/christoffercarlsson/autograph) - an open, modular cryptographic protocol that implements a decentralized credential management system. Efficient enough to run on virtually any type of device, completely offline."
-      },
-      {
-        "project": "Superbacked",
-        "description": "Core maintainer of [Blockcrypt](https://github.com/superbacked/blockcrypt) and [Superbacked](https://superbacked.com) - a secret management platform used to back up and pass on sensitive data from one generation to the next."
-      }
     ]
-  }
+  },
+  "contributions": [
+    {
+      "project": "Autograph",
+      "description": "Creator of the [Autograph protocol](https://github.com/christoffercarlsson/autograph) - an open, modular cryptographic protocol that implements a decentralized credential management system. Efficient enough to run on virtually any type of device, completely offline."
+    },
+    {
+      "project": "Superbacked",
+      "description": "Core maintainer of [Blockcrypt](https://github.com/superbacked/blockcrypt) and [Superbacked](https://superbacked.com) - a secret management platform used to back up and pass on sensitive data from one generation to the next."
+    }
+  ]
 }
