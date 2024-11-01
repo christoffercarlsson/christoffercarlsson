@@ -45,7 +45,7 @@ Arena), Volvo Cars Engineering.
 
 #### Gothenburg, Sweden
 
-Architecture, design and developement for various client projects, working as a
+Architecture, design and development for various client projects, working as a
 consultant. Mentor to junior developers that joined the team.
 
 #### HTML, CSS, JavaScript, Node.js, React, Angular, Docker

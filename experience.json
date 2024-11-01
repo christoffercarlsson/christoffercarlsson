@@ -65,7 +65,7 @@
         "start": "2017-04-01",
         "end": "2020-09-01",
         "location": "Gothenburg, Sweden",
-        "description": "Architecture, design and developement for various client projects, working as a consultant. Mentor to junior developers that joined the team.",
+        "description": "Architecture, design and development for various client projects, working as a consultant. Mentor to junior developers that joined the team.",
         "activities": null,
         "tools": ["HTML", "CSS", "JavaScript", "Node.js", "React", "Angular"]
       },
