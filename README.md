@@ -12,7 +12,8 @@
 👋 Hey, I'm Chris. By helping to build the tools that we need to **thrive in a
 free society**, I hope to contribute to this vision of the future.
 
-Creator of
-[Autograph](https://github.com/christoffercarlsson/autograph) and [Stedy](https://github.com/christoffercarlsson/stedy).
-Core maintainer of [Superbacked](https://superbacked.com) and [Blockcrypt](https://github.com/superbacked/blockcrypt). 
-Currently doing open-source work at Amagicom ([Mullvad VPN](https://mullvad.net), [Tillitis](https://tillitis.se), [Glasklar Teknik](https://glasklarteknik.se)).
+Creator of [Autograph](https://github.com/christoffercarlsson/autograph) and
+[Stedy](https://github.com/christoffercarlsson/stedy). Core maintainer of
+[Superbacked](https://superbacked.com). Currently doing open-source work at
+Amagicom ([Mullvad VPN](https://mullvad.net), [Tillitis](https://tillitis.se),
+[Glasklar Teknik](https://glasklarteknik.se)).
